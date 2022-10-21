@@ -1,0 +1,20 @@
+order += “cpu_usage”
+cpu_usage {
+format = “CPU %usage {%cpu0 %cpu1}”
+max_threshold = 75
+}
+Sound Volume
+
+order += volume master
+volume master {
+format = “♪: %volume”
+format_muted = “♪: muted (%volume)”
+}
+
+general {
+  output_format = "i3bar"
+  colors = true
+  color_good = "#50FA7B"
+  color_degraded = "#F1FA8C"
+  color_bad = "#FF5555"
+}
