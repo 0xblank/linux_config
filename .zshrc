@@ -1,5 +1,3 @@
-zstyle ':znap:*' repos-dir ~/zsh_repos
-source ~/zsh-snap/znap.zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -11,7 +9,6 @@ export PATH="$PATH/usr/sbin:/usr/local/sbin:/usr/local/go/bin:/home/blank/go/bin
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="dracula"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
