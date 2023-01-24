@@ -112,3 +112,4 @@ PERL_MM_OPT="INSTALL_BASE=/home/blank/perl5"; export PERL_MM_OPT;
 
 # If running from tty1 start sway
 [ "$(tty)" = "/dev/tty1" ] && exec sway
+eval "$(starship init zsh)"
