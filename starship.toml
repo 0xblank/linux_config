@@ -1,0 +1,29 @@
+
+
+#[battery]
+#full_symbol
+
+
+#[character]                            
+#success_symbol = "[](bold green)" 
+#error_symbol = "[✗](bold red)"
+
+[directory]
+truncation_length = 3
+disabled = false
+
+[cmd_duration]
+min_time = 1_000  # Show command duration over 10,000 milliseconds (=10 sec)
+format = " took [$duration]($style) "
+
+[username]
+format = "[$user]($style) "
+style_root = "bold red"
+style_user = "bold blue"
+show_always = true 
+disabled = false
+
+[hostname]
+ssh_only = true 
+format = "on [$hostname]($style)" 
+disabled = false
